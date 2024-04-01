@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.estiloHeader {
+    background-color: bisque;
+}
+
+.navegacion {
+    background-color: #2D3250;
+    padding: 20px;
+
+}
+
+.liNav {
+    display: inline;
+    font-style: bold;
+    font-size: 15pt;
+    color: aliceblue;
+    font-family: "Inria Sans", sans-serif;
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+.linkNav {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.sectionPrincipal {
+    position: relative;
+    background-image: url("../assets/imagenes/chicaConSol.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.tituloSuperpuestoChicaConSol {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 120px;
+    font-size: 25pt;
+    color: aliceblue;
+    font-family: "Inria Sans", sans-serif;
+    font-style: bold;
+}
+
+.subtituloSuperpuestoChicaConSol {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 110px;
+    color: aliceblue;
+    font-family: "Inria Sans", sans-serif;
+    font-style: bold;
+    text-align: end;
+    margin-top: 200px;
+    margin-left: 1400px;
+}
+
+
+.sectionMain {
+    background-image: url("../assets/imagenes/chicoaAgachado.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+}
+
+.tituloMain {
+    margin-right: 40px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: bisque;
+    font-size: 40px;
+    padding: 60px;
+    width: 100%;
+    text-align: end;
+    height: 80px;
+
+}
+
+
+.textoSuperpuestoEnCorredor {
+
+    position: absolute;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin-top: 180px;
+    margin-left: 200px;
+    padding: 120px;
+
+
+}
+
+.CajatextoSuperpuestoEnCorredor2 {
+
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    font-style: bold;
+    margin-top: 500px;
+    margin-left: 1200px;
+
+
+}
+
+.textoSuperpuestoEnCorredor2 {
+
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    padding-left: 15px;
+    padding-top: 60px;
+
+}
+
+
+
+.sectionMain2 {
+    /*margin-top: 880px;*/
+    width: 100%;
+    height: 225px;
+    background-color: rgba(45, 50, 80, 0.8);
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.divBeneficios {
+    position: absolute;
+    font-size: 20pt;
+    color: aliceblue;
+    width: 100%;
+    height: 219px;
+    text-align: center;
+    padding: 30px;
+}
+
+.sectionMain3 {
+    background-color: bisque;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tituloSectionMain3 {
+    color: #2D3250;
+    font-size: 30pt;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+
+.tituloFooter {
+    color: aliceblue;
+    background-color: #2D3250;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.iconosFooterGeneral {
+    text-align: center
+}
+
+.iconosFooter {
+    width: 75px;
+    height: 75px;
+    margin-right: 70px;
+
+}
+
+.nosotrosMain {
+
+    background-color: bisque;
+
+
+}
+
+.divGeneralNosotros {
+
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.textoNosotros1 {
+
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 450px;
+    height: 500px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin-top: 80px;
+    margin-left: 800px;
+    padding: 50px;
+
+
+}
+
+.imgEntrenador1 {
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    margin-left: 450px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+.imgEntrenador2 {
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    margin-left: 800px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+.textoNosotros2 {
+
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin-top: 120px;
+    margin-left: 440px;
+    padding: 50px;
+
+
+}
+
+.actividadesMain {
+
+    background-color: bisque;
+    padding: 15px;
+    text-align: center;
+}
+
+.tituloAct1 {
+
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 800px;
+    height: 80px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 10px;
+    margin-left: 450px;
+
+
+}
+
+
+.parrafoAct {
+
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 1000px;
+    height: 100px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+
+}
+
+.btnAct {
+
+    color: #2D3250;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-top: 60px;
+
+
+}
+
+
+
+.parraCont {
+
+    color: #2D3250;
+    font-size: 40px;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 40px;
+    margin-left: 300px;
+    margin-top: 20px;
+
+
+}
+
+
+.tituloCont {
+
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 800px;
+    height: 200px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 20px;
+    margin-left: 450px;
+
+
+}
+
+
+.mainNov {
+
+    background-color: bisque;
+
+
+}
+
+.tituloNov {
+
+    color: #2D3250;
+    font-size: 40px;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 40px;
+    margin-left: 300px;
+
+}
+
+
+.parrafoNov {
+
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(45, 50, 80, 0.8);
+    border-radius: 20px;
+    width: 1000px;
+    height: 160px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+
+
+}
+
+
+.imgNov {
+    padding-right: 50px;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 250px ;
+
+}
+
+.btnNov {
+
+    color: #2D3250;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+ 
+
+
+
+}
